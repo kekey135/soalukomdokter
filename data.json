@@ -1,0 +1,1170 @@
+{
+  "meta": {
+    "title": "Ruang UKDI",
+    "source": "Buku-UKDI.pdf",
+    "pages": 247,
+    "scope": "27 kasus awal Paket 1; ringkasan dan pembahasan berujukan. Buku asli tidak disertakan; belum seluruh soal buku menjadi soal interaktif.",
+    "reviewedAt": "28 Oktober 2026",
+    "editorial": "Pembahasan disusun dengan bantuan AI dan ditautkan ke rujukan yang diperiksa; belum ditelaah dokter pengampu. Bukan bank soal resmi UKMPPD dan skor bukan prediksi kelulusan."
+  },
+  "refs": {
+    "who-dia": {
+      "org": "WHO",
+      "title": "Diarrhoeal disease",
+      "year": "2024",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+      "section": "Bagian Dehydration; klasifikasi berdasarkan kombinasi tanda klinis.",
+      "accessed": "28 Oktober 2026"
+    },
+    "who-pocket": {
+      "org": "WHO",
+      "title": "Pocket Book: Diarrhoea",
+      "year": "2013",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK154434/",
+      "section": "Tabel 12 dan penilaian dehidrasi pada anak.",
+      "accessed": "28 Oktober 2026"
+    },
+    "thyroid": {
+      "org": "NICE",
+      "title": "NG145 — Thyroid disease",
+      "year": "2019; diperbarui 2023",
+      "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations",
+      "section": "Rekomendasi 1.6.21–1.6.25: antitiroid dan konteks penggunaan PTU.",
+      "accessed": "28 Oktober 2026"
+    },
+    "hmb": {
+      "org": "NICE",
+      "title": "NG88 — Heavy menstrual bleeding",
+      "year": "2018; diperbarui 2021",
+      "url": "https://www.nice.org.uk/guidance/ng88/chapter/Recommendations",
+      "section": "Penilaian perdarahan, dampak kualitas hidup; bukan sekadar jumlah pembalut.",
+      "accessed": "28 Oktober 2026"
+    },
+    "uti": {
+      "org": "UKHSA / GOV.UK",
+      "title": "Diagnosis of urinary tract infections",
+      "year": "2025",
+      "url": "https://www.gov.uk/government/publications/urinary-tract-infection-diagnosis/diagnosis-of-urinary-tract-infections-quick-reference-tools-for-primary-care",
+      "section": "Pielonefritis: demam, menggigil, nyeri pinggang dan bukti infeksi urin.",
+      "accessed": "28 Oktober 2026"
+    },
+    "tia": {
+      "org": "NHS",
+      "title": "Transient ischaemic attack",
+      "year": "Halaman daring",
+      "url": "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/",
+      "section": "Gejala fokal sementara dan perlunya penilaian segera.",
+      "accessed": "28 Oktober 2026"
+    },
+    "sicca": {
+      "org": "Penelitian klinis asli",
+      "title": "Treatment of Rhinitis Sicca Anterior",
+      "year": "2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4005055/",
+      "section": "Latar belakang/gejala: hidung kering, iritasi, krusta dan epistaksis. Studi intervensi nonacak; bukan pedoman terapi.",
+      "accessed": "28 Oktober 2026"
+    },
+    "twins": {
+      "org": "NICE",
+      "title": "NG137 — Twin and triplet pregnancy",
+      "year": "2019; diperbarui 2024",
+      "url": "https://www.nice.org.uk/guidance/ng137/chapter/Recommendations",
+      "section": "Bagian 1.1: diagnosis, korionisitas dan amnionisitas dengan ultrasonografi.",
+      "accessed": "28 Oktober 2026"
+    },
+    "hook": {
+      "org": "CDC",
+      "title": "DPDx — Intestinal Hookworm",
+      "year": "Halaman daring",
+      "url": "https://www.cdc.gov/dpdx/hookworm/",
+      "section": "Siklus hidup, penetrasi kulit, perdarahan usus dan anemia.",
+      "accessed": "28 Oktober 2026"
+    },
+    "imp": {
+      "org": "CDC",
+      "title": "Clinical Guidance for Impetigo",
+      "year": "2025",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/impetigo.html",
+      "section": "Lesi papul-pustul menjadi krusta madu; S. aureus maupun S. pyogenes.",
+      "accessed": "28 Oktober 2026"
+    },
+    "phar": {
+      "org": "CDC",
+      "title": "Clinical Guidance for GAS Pharyngitis",
+      "year": "2025",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "section": "Gejala faringitis, keterbatasan diagnosis etiologi secara klinis.",
+      "accessed": "28 Oktober 2026"
+    },
+    "hear": {
+      "org": "RCGP",
+      "title": "Deafness and hearing loss toolkit",
+      "year": "Halaman daring",
+      "url": "https://elearning.rcgp.org.uk/mod/book/tool/print/index.php?id=12532",
+      "section": "Bagian Rinne dan Weber; interpretasi lateralisasi.",
+      "accessed": "28 Oktober 2026"
+    },
+    "storm": {
+      "org": "Endotext",
+      "title": "Thyroid Storm",
+      "year": "2025",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK278927/",
+      "section": "Clinical recognition dan faktor pencetus: infeksi serta putus antitiroid.",
+      "accessed": "28 Oktober 2026"
+    },
+    "mas": {
+      "org": "WA Health / CAHS",
+      "title": "Meconium Aspiration Syndrome",
+      "year": "2023",
+      "url": "https://www.health.wa.gov.au/-/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Meconium-Aspiration-Syndrome-MAS.pdf",
+      "section": "Gambaran klinis dan diagnosis banding distres napas pada neonatus.",
+      "accessed": "28 Oktober 2026"
+    },
+    "cluster": {
+      "org": "NHS Scotland",
+      "title": "Headache — guide to differentiating headache",
+      "year": "2025",
+      "url": "https://www.rightdecisions.scot.nhs.uk/dg-refhelp/neurology/headache/",
+      "section": "Tabel cluster: nyeri unilateral orbital, gejala otonom, durasi 15–180 menit.",
+      "accessed": "28 Oktober 2026"
+    },
+    "wil": {
+      "org": "SciPy",
+      "title": "Wilcoxon signed-rank test",
+      "year": "Dokumentasi daring",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html",
+      "section": "Uji dua sampel berpasangan, asumsi distribusi selisih dan rank absolut.",
+      "accessed": "28 Oktober 2026"
+    },
+    "facial": {
+      "org": "NIH / NINDS",
+      "title": "Bell’s Palsy",
+      "year": "Halaman daring",
+      "url": "https://health.nih.gov/health-topics-a-z/bellspalsy",
+      "section": "Kelemahan nervus fasialis dan pemeriksaan dahi, kelopak, serta mulut.",
+      "accessed": "28 Oktober 2026"
+    },
+    "hirsch": {
+      "org": "NIDDK / NIH",
+      "title": "Diagnosis of Hirschsprung Disease",
+      "year": "Halaman daring",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hirschsprung-disease/diagnosis",
+      "section": "Temuan colok dubur, pencitraan, dan konfirmasi biopsi rektum.",
+      "accessed": "28 Oktober 2026"
+    },
+    "icd10": {
+      "org": "WHO",
+      "title": "ICD-10 mental disorders: clinical descriptions",
+      "year": "1992",
+      "url": "https://cdn.who.int/media/docs/default-source/classification/other-classifications/9241544228_eng.pdf",
+      "section": "F20.0 skizofrenia paranoid dan F65.3 voyeurism; konteks klasifikasi lama.",
+      "accessed": "28 Oktober 2026"
+    },
+    "icd11": {
+      "org": "WHO",
+      "title": "ICD-11: Clinical descriptions and diagnostic requirements",
+      "year": "2024",
+      "url": "https://www.who.int/publications/i/item/9789240077263/",
+      "section": "Manual diagnosis mutakhir: skizofrenia dan gangguan parafilik.",
+      "accessed": "28 Oktober 2026"
+    },
+    "voy": {
+      "org": "WHO",
+      "title": "ICD-10 F65.3 Voyeurism",
+      "year": "2016",
+      "url": "https://icd.who.int/browse10/2016/en#/F65.3",
+      "section": "Mengamati perilaku intim tanpa sepengetahuan orang yang diamati.",
+      "accessed": "28 Oktober 2026"
+    },
+    "eye": {
+      "org": "College of Optometrists",
+      "title": "Conjunctivitis (bacterial)",
+      "year": "2025",
+      "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines/conjunctivitis_bacterial",
+      "section": "Ringkasan publik: onset akut mata merah dan sekret, biasanya tanpa nyeri.",
+      "accessed": "28 Oktober 2026"
+    },
+    "seiz": {
+      "org": "WHO",
+      "title": "Antiseizure medicines for established status epilepticus",
+      "year": "2023",
+      "url": "https://www.who.int/teams/mental-health-and-substance-use/mental-health-gap-action-programme/resources-centre/epilepsy-and-seizures/Antiseizure-medicines-for-management-of-established-status-epilepticus",
+      "section": "Pilihan lini kedua setelah dua dosis benzodiazepin; beberapa alternatif setara.",
+      "accessed": "28 Oktober 2026"
+    },
+    "htn": {
+      "org": "NICE",
+      "title": "NG136 — Hypertension in adults",
+      "year": "2019; diperbarui 2026",
+      "url": "https://www.nice.org.uk/guidance/ng136/chapter/Recommendations",
+      "section": "Rekomendasi 1.5.1–1.5.2: tekanan darah sangat tinggi dan tanda kerusakan organ akut.",
+      "accessed": "28 Oktober 2026"
+    },
+    "para": {
+      "org": "BAUS",
+      "title": "Balanitis & foreskin conditions",
+      "year": "Halaman daring",
+      "url": "https://www.baus.org.uk/trainees/balanitis_foreskin_conditions.aspx",
+      "section": "Parafimosis: preputium tertahan di belakang glans; kegawatdaruratan urologi.",
+      "accessed": "28 Oktober 2026"
+    },
+    "thal": {
+      "org": "NHLBI / NIH",
+      "title": "Thalassemia — Diagnosis",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/thalassemia/diagnosis",
+      "section": "Darah lengkap, uji hemoglobin dan pemeriksaan genetik.",
+      "accessed": "28 Oktober 2026"
+    },
+    "thal-s": {
+      "org": "NHLBI / NIH",
+      "title": "Thalassemia — Symptoms",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/thalassemia/symptoms",
+      "section": "Anemia, ikterus dan pembesaran limpa/hati pada bentuk berat.",
+      "accessed": "28 Oktober 2026"
+    },
+    "tb": {
+      "org": "WHO",
+      "title": "Module 4: Treatment and care — summary",
+      "year": "2025",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK613091/",
+      "section": "Pembaruan rekomendasi 1.7: kategori II ditinggalkan; uji kepekaan obat menentukan terapi.",
+      "accessed": "28 Oktober 2026"
+    },
+    "tb-id": {
+      "org": "Kementerian Kesehatan RI",
+      "title": "Juknis Penatalaksanaan TB Sensitif Obat di Indonesia",
+      "year": "2025",
+      "url": "https://p2.kemkes.go.id/wp-content/uploads/2025/12/Buku-Petunjuk-Teknis-Penatalaksanaan-Tuberkulosis-Sensitif-Obat-di-Indonesia_FINAL.pdf",
+      "section": "Alur diagnosis dan pemeriksaan cepat molekuler; klasifikasi SO/RO dan pemilihan pengobatan sesuai hasil.",
+      "accessed": "28 Oktober 2026"
+    },
+    "lipid": {
+      "org": "NICE",
+      "title": "NG238 — Lipid modification",
+      "year": "2023",
+      "url": "https://www.nice.org.uk/guidance/ng238/chapter/recommendations",
+      "section": "Statin untuk reduksi risiko kardiovaskular; keputusan berdasarkan risiko keseluruhan.",
+      "accessed": "28 Oktober 2026"
+    },
+    "bal": {
+      "org": "CDC",
+      "title": "DPDx — Balantidiasis",
+      "year": "Halaman daring",
+      "url": "https://www.cdc.gov/dpdx/balantidiasis/",
+      "section": "Morfologi protozoa bersilia, makronukleus dan manifestasi disentri.",
+      "accessed": "28 Oktober 2026"
+    }
+  },
+  "questions": [
+    {
+      "id": "p1-001",
+      "number": 1,
+      "package": "Paket 1",
+      "topic": "Anak",
+      "title": "Menilai dehidrasi",
+      "page": 2,
+      "stem": "Anak perempuan 4 tahun mengalami diare cair >10 kali sejak kemarin, tanpa lendir atau darah. Anak rewel dan haus, mata cekung, air mata berkurang, bibir kering, turgor menurun, akral hangat. Apa derajat dehidrasinya?",
+      "options": [
+        "Tanpa dehidrasi",
+        "Dehidrasi ringan–sedang",
+        "Dehidrasi sedang–berat",
+        "Dehidrasi berat",
+        "Dehidrasi sangat berat"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "Kombinasi rewel, mata cekung dan haus mendukung some dehydration, yang sepadan dengan dehidrasi ringan–sedang pada pilihan buku. Yang dinilai adalah gabungan tanda, bukan frekuensi BAB saja.",
+      "others": [
+        "Tanpa dehidrasi tidak cocok karena sudah ada beberapa tanda kehilangan cairan.",
+        "Kategori sedang–berat bukan klasifikasi tiga kelompok WHO.",
+        "Dehidrasi berat memerlukan kombinasi tanda seperti letargi, tidak mampu minum, atau cubitan kulit kembali sangat lambat. Tanda tersebut tidak dijelaskan.",
+        "Sangat berat juga bukan kategori tersendiri dalam klasifikasi WHO."
+      ],
+      "takeaway": "Rewel + haus + mata cekung → pikirkan some dehydration.",
+      "refs": [
+        "who-dia",
+        "who-pocket"
+      ],
+      "note": "",
+      "status": "sesuai",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-002",
+      "number": 2,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "Antitiroid vs pereda gejala",
+      "page": 3,
+      "stem": "Perempuan 24 tahun memiliki benjolan leher, berdebar, tremor dan sering berkeringat. Nadi 120/menit, mata eksoftalmus. TSH rendah, FT3 dan FT4 meningkat. Di antara pilihan berikut, obat mana yang menekan produksi hormon tiroid?",
+      "options": [
+        "Bisoprolol",
+        "Alprazolam",
+        "Levotiroksin",
+        "Fenobarbital",
+        "Propiltiourasil"
+      ],
+      "bookKey": "E",
+      "answer": "E",
+      "reason": "Gambaran mengarah ke hipertiroidisme, kemungkinan Graves. PTU adalah antitiroid yang menghambat sintesis hormon; di antara opsi ini paling sesuai untuk terapi penyebab.",
+      "others": [
+        "Bisoprolol membantu gejala adrenergik tetapi tidak mengatasi peningkatan sintesis hormon.",
+        "Alprazolam tidak mengobati produksi hormon tiroid.",
+        "Levotiroksin menambah hormon tiroid dan tidak sesuai pada hipertiroidisme ini.",
+        "Fenobarbital bukan terapi antitiroid standar."
+      ],
+      "takeaway": "Bedakan obat yang mengurangi produksi hormon dengan obat yang meredakan palpitasi.",
+      "refs": [
+        "thyroid"
+      ],
+      "note": "PTU bukan pilihan awal universal untuk semua pasien Graves. NICE menawarkan karbimazol saat antitiroid dipilih; PTU dipertimbangkan pada keadaan tertentu, termasuk kehamilan/intoleransi. Metimazol/karbimazol tidak tersedia dalam opsi buku. Pertanyaan dirumuskan ulang untuk menegaskan mekanisme.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-003",
+      "number": 3,
+      "package": "Paket 1",
+      "topic": "Obstetri & Ginekologi",
+      "title": "Perdarahan menstruasi memanjang",
+      "page": 3,
+      "stem": "Perempuan 23 tahun menstruasi 1–14 Januari, lalu 2–15 Februari. Tidak ada perdarahan di antara siklus. Mengganti pembalut 2–3 kali sehari. Apa istilah yang dimaksud dalam pilihan buku?",
+      "options": [
+        "Hipermenorea",
+        "Menoragia",
+        "Metroragia",
+        "Oligomenorea",
+        "Menometroragia"
+      ],
+      "bookKey": "A",
+      "answer": null,
+      "reason": "Fakta yang jelas adalah durasi perdarahan memanjang dengan interval antarsiklus relatif tetap. Buku memilih hipermenorea, tetapi pemakaian istilah hipermenorea dan menoragia tidak konsisten antarreferensi. Keduanya sering dipakai untuk perdarahan banyak; membedakannya hanya berdasarkan lama haid tidak aman.",
+      "others": [
+        "Metroragia merujuk perdarahan di luar pola menstruasi.",
+        "Oligomenorea merujuk menstruasi jarang, tidak ditunjukkan oleh interval sekitar satu bulan.",
+        "Menometroragia menggabungkan perdarahan tidak teratur dengan perdarahan banyak/memanjang.",
+        "Jumlah pembalut saja tidak cukup untuk memastikan volume kehilangan darah."
+      ],
+      "takeaway": "Sebutkan pola secara deskriptif: perdarahan menstruasi memanjang; jangan bergantung pada istilah lama yang tumpang tindih.",
+      "refs": [
+        "hmb"
+      ],
+      "note": "Kunci A dipertahankan sebagai catatan buku, bukan jawaban tunggal yang terverifikasi. Tidak masuk skor.",
+      "status": "ambigu",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-004",
+      "number": 4,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "Demam dan nyeri ketok CVA",
+      "page": 4,
+      "stem": "Perempuan 27 tahun demam 39,3°C, menggigil dan nyeri pinggang kanan. Ada nyeri ketok sudut kostovertebra kanan, leukositosis, leukosit urin 10–12/LPB dan silinder leukosit. Diagnosis paling mungkin?",
+      "options": [
+        "Sistitis akut",
+        "Divertikulitis",
+        "Pielonefritis",
+        "Apendisitis",
+        "Vesikolitiasis"
+      ],
+      "bookKey": "C",
+      "answer": "C",
+      "reason": "Demam tinggi, menggigil, nyeri pinggang dan nyeri ketok CVA dengan piuria mendukung infeksi saluran kemih atas, yaitu pielonefritis. Silinder leukosit memperkuat keterlibatan ginjal.",
+      "others": [
+        "Sistitis lebih sering menimbulkan disuria, urgensi dan nyeri suprapubik tanpa tanda sistemik menonjol.",
+        "Divertikulitis dan apendisitis tidak paling menjelaskan pola CVA serta temuan urin ini.",
+        "Batu kandung kemih lebih sesuai dengan gejala berkemih/hematuria; tanda infeksi ginjal lebih kuat pada kasus ini."
+      ],
+      "takeaway": "Demam + nyeri pinggang/CVA + bukti infeksi urin → pielonefritis.",
+      "refs": [
+        "uti"
+      ],
+      "note": "",
+      "status": "sesuai",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-005",
+      "number": 5,
+      "package": "Paket 1",
+      "topic": "Neurologi",
+      "title": "Defisit neurologis yang menghilang",
+      "page": 4,
+      "stem": "Laki-laki 68 tahun tiba-tiba bicara pelo saat bangun tidur. Keluhan menghilang dalam 4 jam. Ia memiliki hipertensi dan diabetes. Di antara opsi buku, diagnosis kerja paling mungkin?",
+      "options": [
+        "Stroke in evolution",
+        "Stroke nonhemoragik",
+        "Stroke hemoragik",
+        "RIND",
+        "Transient ischemic attack"
+      ],
+      "bookKey": "E",
+      "answer": "E",
+      "reason": "Episode neurologis fokal yang pulih sepenuhnya mendukung dugaan TIA. Ini tetap perlu evaluasi segera; gejala yang membaik tidak berarti risikonya selesai.",
+      "others": [
+        "Stroke in evolution berarti defisit berkembang/progresif.",
+        "Stroke iskemik atau hemoragik tidak dapat dipastikan hanya dari tekanan darah dan waktu gejala.",
+        "RIND adalah istilah lama, biasanya untuk defisit yang lebih lama; bukan klasifikasi modern yang diutamakan."
+      ],
+      "takeaway": "Gejala stroke yang hilang tetap darurat untuk evaluasi TIA dan pencegahan stroke.",
+      "refs": [
+        "tia"
+      ],
+      "note": "Durasi <24 jam adalah definisi klinis historis. Pencitraan dapat menunjukkan infark walau gejala pulih; karena itu diagnosis di sini bersifat dugaan TIA, bukan konfirmasi tanpa pencitraan.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-006",
+      "number": 6,
+      "package": "Paket 1",
+      "topic": "THT",
+      "title": "Hidung kering dan mimisan",
+      "page": 5,
+      "stem": "Laki-laki 55 tahun, tukang sapu jalan yang sering terpapar debu, mengalami hidung kering, iritasi dan mimisan singkat berulang selama sebulan. Diagnosis yang paling sesuai dengan opsi buku?",
+      "options": [
+        "Rinitis vasomotor",
+        "Rinitis alergi",
+        "Rinitis medikamentosa",
+        "Rinitis sika",
+        "Rinitis akut"
+      ],
+      "bookKey": "D",
+      "answer": "D",
+      "reason": "Rinitis sika berarti keluhan dominan kekeringan mukosa hidung, yang dapat disertai krusta, iritasi dan epistaksis. Pola ini lebih cocok dibanding rinitis dengan rinorea dominan.",
+      "others": [
+        "Rinitis vasomotor lebih sering berupa rinorea/kongesti karena pemicu nonalergi.",
+        "Rinitis alergi lebih sesuai dengan bersin, gatal dan rinorea terkait alergen.",
+        "Rinitis medikamentosa memerlukan riwayat penggunaan dekongestan topikal berlebihan.",
+        "Rinitis akut biasanya memiliki perjalanan infeksi akut dengan rinorea/kongesti."
+      ],
+      "takeaway": "Kekeringan mukosa + iritasi + epistaksis ringan mengarah ke rinitis sika dalam konteks soal.",
+      "refs": [
+        "sicca"
+      ],
+      "note": "Rujukan merupakan penelitian gejala, bukan pedoman terapi. Epistaksis menetap/berulang tetap memerlukan pemeriksaan penyebab lokal maupun sistemik.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-007",
+      "number": 7,
+      "package": "Paket 1",
+      "topic": "Obstetri & Ginekologi",
+      "title": "Tiga bagian besar janin",
+      "page": 6,
+      "stem": "Ibu hamil 28 minggu memiliki perut lebih besar daripada usia kehamilan. Teraba tiga bagian besar janin, banyak bagian kecil, serta dua balotemen. Diagnosis paling mungkin?",
+      "options": [
+        "Mola hidatidosa",
+        "Oligohidramnion",
+        "Hidrosefalus",
+        "Gemeli",
+        "Kehamilan ektopik terganggu"
+      ],
+      "bookKey": "D",
+      "answer": "D",
+      "reason": "Beberapa bagian besar janin dan dua balotemen meningkatkan kecurigaan kehamilan kembar. Temuan palpasi merupakan petunjuk; ultrasonografi mengonfirmasi jumlah janin dan menentukan korionisitas serta amnionisitas.",
+      "others": [
+        "Mola dapat membuat uterus lebih besar tetapi tidak menjelaskan beberapa bagian janin yang jelas.",
+        "Oligohidramnion tidak menjelaskan uterus besar dan multipel bagian janin.",
+        "Hidrosefalus tidak menjelaskan dua balotemen dan banyak bagian besar.",
+        "Kehamilan ektopik terganggu memiliki pola kegawatdaruratan yang berbeda."
+      ],
+      "takeaway": "Curiga kembar dari palpasi; konfirmasi dan klasifikasikan dengan USG.",
+      "refs": [
+        "twins"
+      ],
+      "note": "",
+      "status": "sesuai",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-008",
+      "number": 8,
+      "package": "Paket 1",
+      "topic": "Parasitologi",
+      "title": "Bermain tanpa alas kaki",
+      "page": 6,
+      "stem": "Anak 5 tahun diare dengan darah pada feses. Ia sering bermain di tanah/pasir tanpa sandal. Dari pilihan ini, cacing usus mana yang paling sesuai dengan pola penularan perkutaneus dan kehilangan darah usus?",
+      "options": [
+        "Necator americanus",
+        "Ancylostoma braziliense",
+        "Wuchereria bancrofti",
+        "Enterobius vermicularis",
+        "Strongyloides stercoralis"
+      ],
+      "bookKey": "A",
+      "answer": "A",
+      "reason": "Cacing tambang N. americanus masuk melalui kulit sebagai larva filariform dan cacing dewasa melekat pada usus sehingga menyebabkan kehilangan darah, terutama pada infeksi berat. Ini paling sesuai dengan arah pertanyaan buku.",
+      "others": [
+        "A. braziliense pada manusia lebih khas menyebabkan cutaneous larva migrans.",
+        "W. bancrofti menyebabkan filariasis limfatik.",
+        "Enterobius lebih khas dengan gatal perianal malam hari.",
+        "Strongyloides juga masuk melalui kulit, tetapi petunjuk kehilangan darah pada soal lebih mengarah ke cacing tambang."
+      ],
+      "takeaway": "Tanpa alas kaki → larva perkutaneus; cacing tambang → kehilangan darah/anemia.",
+      "refs": [
+        "hook"
+      ],
+      "note": "Paparan tanah dan diare berdarah tidak membuktikan spesies. Kasus klinis nyata memerlukan pemeriksaan feses dan diagnosis banding disentri. Pertanyaan diperjelas untuk menanyakan pola cacing tambang.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-009",
+      "number": 9,
+      "package": "Paket 1",
+      "topic": "Kulit",
+      "title": "Krusta kuning madu",
+      "page": 7,
+      "stem": "Anak 7 tahun mengalami papul-pustul agak gatal di sekitar hidung dan mulut. Lesi mudah pecah dan tertutup krusta tebal kuning madu. Diagnosis paling mungkin?",
+      "options": [
+        "Ektima",
+        "Impetigo krustosa",
+        "Impetigo bulosa",
+        "Folikulitis/furunkel",
+        "Acne vulgaris"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "Lesi superfisial yang pecah lalu membentuk krusta madu merupakan gambaran khas impetigo nonbulosa atau impetigo krustosa.",
+      "others": [
+        "Ektima lebih dalam dan membentuk ulkus.",
+        "Impetigo bulosa ditandai bula flaksid.",
+        "Folikulitis/furunkel berpusat pada folikel rambut atau membentuk nodul/abses.",
+        "Acne biasanya disertai komedo dan pola distribusi berbeda."
+      ],
+      "takeaway": "Krusta madu pada lesi superfisial anak → impetigo nonbulosa.",
+      "refs": [
+        "imp"
+      ],
+      "note": "Buku menyebut Streptococcus dan hanya anak. Pembaruan: S. aureus maupun S. pyogenes dapat menjadi penyebab; orang dewasa juga dapat terkena.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-010",
+      "number": 10,
+      "package": "Paket 1",
+      "topic": "THT",
+      "title": "Nyeri telan dan faring hiperemis",
+      "page": 7,
+      "stem": "Perempuan 19 tahun sakit tenggorokan, demam dan nyeri telan selama 3 hari. Faring hiperemis-edema, dinding posterior bergranula; tonsil T1/T1 tidak hiperemis. Tidak pilek atau suara serak. Diagnosis anatomis paling sesuai?",
+      "options": [
+        "Tonsilitis akut",
+        "Limfadenitis",
+        "Faringitis akut",
+        "Laringitis akut",
+        "Rinitis akut"
+      ],
+      "bookKey": "C",
+      "answer": "C",
+      "reason": "Lokasi peradangan dominan di faring dengan odinofagia mendukung faringitis. Tonsil tidak tampak meradang dan tidak ada serak yang mengarahkan ke laring.",
+      "others": [
+        "Tonsilitis memerlukan keterlibatan tonsil yang lebih menonjol.",
+        "Limfadenitis dapat menyertai, tetapi bukan lokasi utama keluhan.",
+        "Laringitis lebih khas dengan disfonia/serak.",
+        "Rinitis lebih dominan dengan gejala hidung."
+      ],
+      "takeaway": "Kenali lokasi inflamasi sebelum menebak patogen.",
+      "refs": [
+        "phar"
+      ],
+      "note": "Tidak ada pilek/serak tidak otomatis membuktikan streptokokus. Etiologi bakteri memerlukan penilaian dan, sesuai pedoman, tes yang relevan.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-011",
+      "number": 11,
+      "package": "Paket 1",
+      "topic": "THT",
+      "title": "Menilai sisi gangguan pendengaran",
+      "page": 7,
+      "stem": "Perempuan 23 tahun mengalami penurunan pendengaran. Tes Rinne positif, Weber lateralisasi ke kiri, dan Schwabach memendek. Dengan asumsi gangguan unilateral sederhana, diagnosis mana paling sesuai?",
+      "options": [
+        "Tuli konduktif kanan",
+        "Tuli konduktif kiri",
+        "Tuli sensorineural kanan",
+        "Tuli sensorineural kiri",
+        "Tuli campuran"
+      ],
+      "bookKey": "D",
+      "answer": "C",
+      "reason": "Pada tuli sensorineural unilateral, Weber cenderung terdengar lebih kuat di telinga yang lebih baik. Lateralisasi ke kiri berarti gangguan sensorineural kanan lebih masuk akal. Rinne positif tidak menyingkirkan tuli sensorineural.",
+      "others": [
+        "Tuli konduktif sederhana biasanya memberikan Rinne negatif pada sisi yang terkena.",
+        "Tuli sensorineural kiri biasanya melateralisasikan Weber ke kanan, bukan kiri.",
+        "Tuli campuran memerlukan bukti gangguan konduktif sekaligus sensorineural; data ini belum menunjukkannya."
+      ],
+      "takeaway": "SNHL: Weber ke telinga yang lebih baik. CHL: Weber ke sisi yang sakit.",
+      "refs": [
+        "hear"
+      ],
+      "note": "Kunci buku D bertentangan dengan interpretasi Weber dalam kasus ini. Jawaban pembahasan C; asumsi unilateral perlu dicatat. Konfirmasi klinis menggunakan audiometri.",
+      "status": "koreksi",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-012",
+      "number": 12,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "Koma pada riwayat hipertiroid",
+      "page": 8,
+      "stem": "Perempuan 26 tahun koma, sebelumnya sulit tidur dan tubuh terasa hangat. Ia menghentikan pengobatan setelah 3 bulan, kemudian mengalami batuk berdahak. Nadi 120/menit, tiroid membesar difus, GDS 80 mg/dL. Diagnosis paling mungkin di antara opsi?",
+      "options": [
+        "Koma hipoglikemia",
+        "Hipotiroid subklinis",
+        "Hipertiroid subklinis",
+        "Krisis tiroid",
+        "Koma miksedema"
+      ],
+      "bookKey": "D",
+      "answer": "D",
+      "reason": "Tirotoksikosis yang tidak terkontrol, kemungkinan infeksi sebagai pencetus, takikardi dan gangguan kesadaran berat mengarah ke krisis tiroid. Diagnosis bersifat klinis dan memerlukan penilaian sistemik.",
+      "others": [
+        "GDS 80 mg/dL tidak mendukung hipoglikemia sebagai penjelasan utama.",
+        "Gangguan tiroid subklinis tidak menjelaskan dekompensasi berat seperti koma.",
+        "Koma miksedema lebih cocok dengan hipotiroid berat, sering dengan hipotermia dan bradikardi."
+      ],
+      "takeaway": "Putus antitiroid + pencetus infeksi + dekompensasi sistemik → curiga thyroid storm.",
+      "refs": [
+        "storm"
+      ],
+      "note": "Kasus tidak memuat seluruh parameter skor krisis tiroid. Ini jawaban paling mungkin dari opsi, bukan diagnosis pasti hanya berdasarkan GDS dan nadi.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-013",
+      "number": 13,
+      "package": "Paket 1",
+      "topic": "Anak",
+      "title": "Distres napas setelah ketuban mekonium",
+      "page": 8,
+      "stem": "Bayi cukup bulan usia 10 jam merintih, sianosis, napas cuping hidung dan retraksi interkostal. Air ketuban mengandung mekonium; tali pusat dan kuku tampak kehijauan. Diagnosis paling mungkin?",
+      "options": [
+        "Respiratory distress syndrome",
+        "Asfiksia neonatorum",
+        "Hyaline membrane disease",
+        "Transient tachypnoea of newborn",
+        "Sindrom aspirasi mekonium"
+      ],
+      "bookKey": "E",
+      "answer": "E",
+      "reason": "Distres respirasi pada bayi cukup bulan dengan paparan mekonium kuat mengarah ke sindrom aspirasi mekonium. Mekonium dapat menyumbat jalan napas dan menimbulkan inflamasi serta gangguan pertukaran gas.",
+      "others": [
+        "RDS/hyaline membrane disease lebih khas defisiensi surfaktan pada bayi prematur; dua opsi ini juga tumpang tindih.",
+        "Asfiksia dapat menyertai tetapi kurang spesifik menjelaskan keseluruhan petunjuk.",
+        "TTN juga menyebabkan takipnea, tetapi pewarnaan mekonium dan distres ini lebih mendukung aspirasi."
+      ],
+      "takeaway": "Bayi cukup bulan + mekonium + distres respirasi → curiga MAS.",
+      "refs": [
+        "mas"
+      ],
+      "note": "",
+      "status": "sesuai",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-014",
+      "number": 14,
+      "package": "Paket 1",
+      "topic": "Neurologi",
+      "title": "Nyeri orbital dengan gejala otonom",
+      "page": 9,
+      "stem": "Perempuan 50 tahun mengalami serangan nyeri kepala unilateral di pelipis dan sekitar mata. Pada sisi nyeri, mata merah dan berair serta hidung berair. Pemeriksaan di luar serangan tidak menunjukkan kelainan. Diagnosis paling mungkin?",
+      "options": [
+        "Cluster headache",
+        "Neuralgia trigeminal",
+        "Tension-type headache",
+        "Migrain dengan aura",
+        "Migrain tanpa aura"
+      ],
+      "bookKey": "A",
+      "answer": "A",
+      "reason": "Nyeri orbital/temporal unilateral dengan lakrimasi, injeksi konjungtiva dan rinorea ipsilateral merupakan pola trigeminal autonomic cephalalgia, terutama cluster headache dari opsi ini.",
+      "others": [
+        "Neuralgia trigeminal lebih khas nyeri seperti sengatan singkat yang dipicu sentuhan/aktivitas.",
+        "Tension-type biasanya bilateral, menekan, tanpa pola otonom unilateral menonjol.",
+        "Migrain dapat unilateral tetapi pola gejala otonom kuat ini lebih mendukung cluster; aura tidak disebutkan."
+      ],
+      "takeaway": "Orbital unilateral + lakrimasi/rinorea ipsilateral → pikirkan cluster.",
+      "refs": [
+        "cluster"
+      ],
+      "note": "Buku menulis durasi serangan 5–80 menit. Rujukan yang diperiksa menyebut 15–180 menit. Durasi tiap serangan tidak tersedia pada stem, sehingga diagnosis perlu konfirmasi pola lengkap.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-015",
+      "number": 15,
+      "package": "Paket 1",
+      "topic": "Kesehatan Masyarakat",
+      "title": "Uji sebelum–sesudah",
+      "page": 9,
+      "stem": "Pengetahuan peserta tentang TBC diukur sebelum dan sesudah penyuluhan pada orang yang sama. Hasil dikategorikan baik, sedang, buruk. Uji mana yang dimaksud dari pilihan buku?",
+      "options": [
+        "t berpasangan",
+        "Wilcoxon",
+        "Chi-square",
+        "Spearman",
+        "One-way ANOVA"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "Buku mengarahkan ke Wilcoxon karena dua pengukuran berpasangan dengan tingkat pengetahuan berurutan. Di antara pilihan yang tersedia, ini jawaban yang lazim dimaksud dalam soal dasar.",
+      "others": [
+        "t berpasangan memerlukan pengukuran numerik dan asumsi distribusi selisih.",
+        "Chi-square independensi biasa tidak memperhitungkan pasangan subjek.",
+        "Spearman menilai hubungan peringkat, bukan perbedaan sebelum–sesudah.",
+        "One-way ANOVA biasa untuk perbandingan kelompok independen dan tidak sesuai desain ini."
+      ],
+      "takeaway": "Tentukan dulu: tujuan perbandingan, skala data, dan apakah subjek berpasangan.",
+      "refs": [
+        "wil"
+      ],
+      "note": "Wilcoxon memakai rank selisih dan asumsi tertentu. Untuk hanya tiga kategori ordinal, desain analisis perlu dinilai lebih teliti; sign test atau pendekatan marginal homogeneity dapat lebih tepat bergantung tujuan/data. Kunci ini bukan aturan universal untuk semua data ordinal.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-016",
+      "number": 16,
+      "package": "Paket 1",
+      "topic": "Neurologi",
+      "title": "Lagoftalmus dan sudut mulut",
+      "page": 10,
+      "stem": "Perempuan 50 tahun mengalami bibir tertarik ke kanan dan lagoftalmus. Nervus manakah yang paling mungkin terganggu dari pilihan berikut?",
+      "options": [
+        "N. VI kiri",
+        "N. VII kiri",
+        "N. VIII kiri",
+        "N. IX kiri",
+        "N. X kiri"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "N. fasialis mempersarafi otot ekspresi wajah termasuk orbicularis oculi. Kelemahan sisi kiri membuat penutupan mata terganggu dan mulut tertarik ke sisi kanan yang lebih kuat.",
+      "others": [
+        "N. VI mengatur abduksi mata, bukan otot ekspresi wajah.",
+        "N. VIII berkaitan dengan pendengaran dan keseimbangan.",
+        "N. IX dan X terutama terkait fungsi faring/laring, bukan pola kelemahan wajah ini."
+      ],
+      "takeaway": "Kelopak sulit menutup + kelemahan ekspresi wajah → N. VII.",
+      "refs": [
+        "facial"
+      ],
+      "note": "Menentukan saraf tidak sama dengan menentukan penyebab. Buku menyimpulkan stroke terlalu jauh; onset mendadak setelah jatuh perlu evaluasi neurologis dan temuan wajah atas/bawah secara lengkap.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-017",
+      "number": 17,
+      "package": "Paket 1",
+      "topic": "Bedah",
+      "title": "Belum BAB sejak lahir",
+      "page": 11,
+      "stem": "Bayi 1 minggu belum pernah BAB sejak lahir, muntah setelah menyusu dan perut distensi. Feses menyemprot setelah colok dubur. Enema kontras menunjukkan bagian distal menyempit dan proksimal melebar. Diagnosis paling mungkin?",
+      "options": [
+        "Meconium plug",
+        "Stenosis rektum",
+        "Meconium ileus",
+        "Penyakit Hirschsprung",
+        "Stenosis membran anus"
+      ],
+      "bookKey": "D",
+      "answer": "D",
+      "reason": "Keterlambatan pengeluaran mekonium, distensi dan zona transisi pada enema mengarah ke Hirschsprung. Segmen tanpa sel ganglion gagal relaksasi dan menyebabkan obstruksi fungsional.",
+      "others": [
+        "Meconium plug dapat menyebabkan sumbatan awal tetapi tidak paling menjelaskan keseluruhan pola zona transisi dan temuan ini.",
+        "Meconium ileus terutama melibatkan usus halus dan memiliki konteks yang berbeda.",
+        "Stenosis anatomis rektum/anus perlu dibedakan dengan pemeriksaan; pola klasik ini lebih mendukung aganglionosis."
+      ],
+      "takeaway": "Curiga Hirschsprung dari gejala; konfirmasi dengan biopsi rektum.",
+      "refs": [
+        "hirsch"
+      ],
+      "note": "",
+      "status": "sesuai",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-018",
+      "number": 18,
+      "package": "Paket 1",
+      "topic": "Psikiatri",
+      "title": "Perilaku seksual dan syarat diagnosis",
+      "page": 11,
+      "stem": "Seorang perempuan merasa bergairah ketika melihat suaminya berhubungan seksual dengan orang lain. Buku meminta memilih istilah dari daftar ini. Informasi tentang persetujuan, durasi, distres dan gangguan fungsi tidak tersedia.",
+      "options": [
+        "Fetisisme",
+        "Eksibisionisme",
+        "Nekrofilia",
+        "Voyeurisme",
+        "Masokisme"
+      ],
+      "bookKey": "D",
+      "answer": null,
+      "reason": "Kunci buku D menggambarkan fokus melihat aktivitas seksual. Akan tetapi, skenario tidak memastikan pengamatan tanpa sepengetahuan/persetujuan ataupun kriteria gangguan. Fantasi atau perilaku konsensual tidak otomatis merupakan gangguan mental.",
+      "others": [
+        "Fetisisme memusat pada objek/bagian tubuh tertentu.",
+        "Eksibisionisme menekankan memperlihatkan alat kelamin kepada orang lain yang tidak mengharapkannya.",
+        "Nekrofilia berkaitan dengan jenazah; masokisme dengan rasa sakit/penghinaan.",
+        "Data skenario tidak cukup untuk menegakkan gangguan voyeuristik."
+      ],
+      "takeaway": "Bedakan pola ketertarikan dengan diagnosis gangguan; nilai persetujuan, distres, fungsi dan durasi.",
+      "refs": [
+        "voy",
+        "icd11"
+      ],
+      "note": "Tidak ada satu diagnosis gangguan yang dapat dipastikan. Kunci buku disimpan untuk transparansi; soal tidak masuk skor.",
+      "status": "ambigu",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-019",
+      "number": 19,
+      "package": "Paket 1",
+      "topic": "Mata",
+      "title": "Mata merah dengan visus baik",
+      "page": 12,
+      "stem": "Perempuan 32 tahun mengalami mata merah selama 3 hari tanpa nyeri. Visus baik dan terdapat sekret purulen pada konjungtiva tarsal. Diagnosis anatomis paling sesuai?",
+      "options": [
+        "Konjungtivitis",
+        "Iritis",
+        "Glaukoma akut",
+        "Keratitis",
+        "Uveitis"
+      ],
+      "bookKey": "A",
+      "answer": "A",
+      "reason": "Mata merah dengan sekret dan visus tetap baik tanpa nyeri lebih sesuai dengan konjungtivitis. Sekret purulen mengarah ke etiologi bakteri, tetapi etiologi perlu dinilai dalam konteks klinis.",
+      "others": [
+        "Iritis/uveitis lebih sering disertai fotofobia dan nyeri.",
+        "Glaukoma akut umumnya menimbulkan nyeri hebat dan gangguan visus.",
+        "Keratitis menimbulkan nyeri/fotofobia dan dapat menurunkan visus; perlu menilai kornea."
+      ],
+      "takeaway": "Mata merah + sekret + visus baik + tanpa nyeri → konjungtivitis lebih mungkin.",
+      "refs": [
+        "eye"
+      ],
+      "note": "Redaksi buku bertentangan: awalnya tertulis tidak ada sekret mukopurulen, lalu ditemukan sekret purulen. Ringkasan memakai temuan pemeriksaan; kontradiksi ditampilkan di sini.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-020",
+      "number": 20,
+      "package": "Paket 1",
+      "topic": "Neurologi",
+      "title": "Kejang setelah dua benzodiazepin",
+      "page": 12,
+      "stem": "Laki-laki 27 tahun mengalami kejang berulang tanpa pulih sadar di antara serangan. Kejang tetap berlangsung setelah dua pemberian diazepam injeksi. Obat berikut yang sesuai sebagai pilihan terapi lanjutan?",
+      "options": [
+        "Propofol",
+        "Fenitoin",
+        "Midazolam",
+        "Asam valproat",
+        "Fenobarbital"
+      ],
+      "bookKey": "B",
+      "answer": null,
+      "reason": "Ini mengarah ke established convulsive status epilepticus. Setelah dua dosis benzodiazepin yang adekuat, diperlukan obat antikejang lini berikut dengan pemantauan dan dukungan resusitasi. Fenitoin memang salah satu pilihan.",
+      "others": [
+        "WHO juga menerima valproat dan fenobarbital, selain fosfenitoin serta levetirasetam, sesuai fasilitas dan pemantauan.",
+        "Karena beberapa opsi buku dapat diterima, fenitoin bukan satu-satunya jawaban yang benar menurut rujukan yang diperiksa.",
+        "Anestesia/infus sedasi dipertimbangkan pada tata laksana refrakter dengan dukungan spesialis."
+      ],
+      "takeaway": "Jangan menambah benzodiazepin tanpa batas; lanjutkan algoritme dengan obat lini berikut dan pemantauan.",
+      "refs": [
+        "seiz"
+      ],
+      "note": "Kunci lama B tidak lagi unik: B, D atau E dapat sesuai dalam kerangka WHO, bergantung konteks. Soal tidak masuk skor tunggal.",
+      "status": "ambigu",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-021",
+      "number": 21,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "Angka tekanan darah belum cukup",
+      "page": 13,
+      "stem": "Laki-laki 55 tahun nyeri kepala dan mual. Tekanan darah 210/140 mmHg, pemeriksaan generalis dan motorik disebut normal. Apa klasifikasi paling tepat menurut informasi yang tersedia?",
+      "options": [
+        "Hipertensi urgensi",
+        "Hipertensi emergensi",
+        "Hipertensi derajat II",
+        "Migrain",
+        "Stroke hemoragik"
+      ],
+      "bookKey": "B",
+      "answer": null,
+      "reason": "Tekanan darah ini sangat tinggi dan membutuhkan penilaian segera. Namun, emergensi hipertensi ditentukan oleh kerusakan organ target akut, bukan angka tekanan darah atau nyeri kepala saja. Kasus belum memberikan bukti yang cukup untuk memastikan emergensi.",
+      "others": [
+        "Tanpa kerusakan organ akut, hipertensi berat tanpa emergensi lebih mungkin, tetapi pemeriksaan untuk menyingkirkannya belum lengkap.",
+        "Pemeriksaan motorik normal tidak menyingkirkan semua kerusakan organ, misalnya retinopati akut, cedera ginjal atau gagal jantung.",
+        "Migrain/stroke hemoragik tidak dapat dipastikan hanya dari keluhan tersebut."
+      ],
+      "takeaway": "Cari kerusakan organ akut sebelum melabeli emergensi hipertensi.",
+      "refs": [
+        "htn"
+      ],
+      "note": "Kunci buku B tidak cukup didukung stem. Dibutuhkan status mental, funduskopi dan evaluasi organ sesuai gejala. Tidak masuk skor.",
+      "status": "ambigu",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-022",
+      "number": 22,
+      "package": "Paket 1",
+      "topic": "Psikiatri",
+      "title": "Halusinasi dan waham menonjol",
+      "page": 14,
+      "stem": "Perempuan 34 tahun sejak 3 tahun sering mendengar suara menghina dan merasa pikirannya dikendalikan kekuatan gaib. Ia yakin diguna-guna. Tidak ada episode mood dominan yang dijelaskan. Dalam klasifikasi lama pada opsi buku, diagnosis paling mungkin?",
+      "options": [
+        "Skizofrenia hebefrenik",
+        "Skizofrenia paranoid",
+        "Skizofrenia simpleks",
+        "Skizofrenia residual",
+        "Skizoafektif"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "Dalam kerangka ICD-10 yang digunakan opsi, halusinasi auditorik dan waham yang menonjol dengan perjalanan lama paling cocok dengan skizofrenia paranoid. Diagnosis klinis tetap memerlukan penilaian fungsi, penggunaan zat, kondisi medis dan konteks budaya.",
+      "others": [
+        "Hebefrenik lebih menonjol dengan disorganisasi perilaku/pembicaraan dan afek.",
+        "Simpleks/residual lebih menonjol dengan gejala negatif, tidak menjelaskan gejala positif aktif ini.",
+        "Skizoafektif memerlukan komponen gangguan mood yang tidak dijelaskan pada stem."
+      ],
+      "takeaway": "Pahami kerangka klasifikasi yang sedang ditanyakan, lalu cocokkan pola gejalanya.",
+      "refs": [
+        "icd10",
+        "icd11"
+      ],
+      "note": "Istilah subtipe skizofrenia paranoid merupakan klasifikasi lama. ICD-11 menggunakan diagnosis skizofrenia beserta penjelas perjalanan/gejala, bukan subtipe lama. Jawaban dinilai hanya dalam konteks opsi historis.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-023",
+      "number": 23,
+      "package": "Paket 1",
+      "topic": "Bedah",
+      "title": "Preputium tidak dapat dikembalikan",
+      "page": 14,
+      "stem": "Anak 5 tahun mengalami pembengkakan ujung penis. Kulit yang tertarik ke belakang glans menjepit dan tidak dapat dikembalikan ke posisi semula. Diagnosis paling mungkin?",
+      "options": [
+        "Parafimosis",
+        "Hipospadia",
+        "Fimosis",
+        "Epispadia",
+        "Striktur uretra"
+      ],
+      "bookKey": "A",
+      "answer": "A",
+      "reason": "Parafimosis adalah preputium yang telah diretraksi kemudian tertahan di belakang glans. Jeratan menyebabkan edema dan dapat mengganggu aliran darah, sehingga merupakan kegawatdaruratan urologi.",
+      "others": [
+        "Fimosis berarti preputium sulit/tidak dapat ditarik ke belakang sejak awal.",
+        "Hipospadia dan epispadia berkaitan dengan letak muara uretra.",
+        "Striktur uretra adalah penyempitan lumen uretra, bukan jeratan kulit glans."
+      ],
+      "takeaway": "Fimosis: tidak bisa ditarik. Parafimosis: sudah tertarik, tidak bisa dikembalikan.",
+      "refs": [
+        "para"
+      ],
+      "note": "Buku menulis frenulum; struktur yang relevan pada parafimosis adalah preputium. Ringkasan membetulkan istilah anatomi tersebut.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-024",
+      "number": 24,
+      "package": "Paket 1",
+      "topic": "Anak",
+      "title": "Anemia mikrositik dan ikterus",
+      "page": 15,
+      "stem": "Anak 9 tahun pucat sejak usia 6 tahun, kulit dan sklera ikterik, serta splenomegali. Hb 6,6 g/dL; MCV/MCH menurun; apusan darah menunjukkan anisositosis, polikromasi dan target cell. Diagnosis paling mungkin?",
+      "options": [
+        "Defisiensi asam folat",
+        "Defisiensi besi",
+        "Anemia aplastik",
+        "Defisiensi asam askorbat",
+        "Talasemia"
+      ],
+      "bookKey": "E",
+      "answer": "E",
+      "reason": "Anemia mikrositik kronis disertai petunjuk hemolisis, pembesaran limpa dan target cell membuat talasemia paling mungkin dari opsi ini. Konfirmasi membutuhkan uji hemoglobin dan, bila perlu, pemeriksaan genetik.",
+      "others": [
+        "Defisiensi folat cenderung makrositik.",
+        "Defisiensi besi dapat mikrositik, tetapi ikterus dan splenomegali pada pola ini lebih mendukung hemolisis.",
+        "Aplasia biasanya ditandai kegagalan produksi beberapa lini sel; tidak paling sesuai dengan pola hemolisis ini.",
+        "Defisiensi vitamin C tidak paling menjelaskan keseluruhan gambaran."
+      ],
+      "takeaway": "Mikrositik + hemolisis + splenomegali → pertimbangkan talasemia.",
+      "refs": [
+        "thal",
+        "thal-s"
+      ],
+      "note": "Target cell tidak spesifik dan tidak menentukan subtipe talasemia. Pernyataan HbA tidak ada/HbF tinggi tidak berlaku untuk semua jenis talasemia.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-025",
+      "number": 25,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "TB kambuh: perbarui pendekatan",
+      "page": 15,
+      "stem": "Laki-laki 35 tahun batuk 3 minggu dengan hemoptisis. Dua tahun sebelumnya telah menyelesaikan OAT 6 bulan dan dinyatakan sembuh. Kini BTA positif. Buku meminta memilih regimen berikut.",
+      "options": [
+        "2RHZ–4RH",
+        "2RHE–4RH",
+        "2RHZE–4RH",
+        "2RHZES–1RHZE–5R3H3E3",
+        "2RHZE–4RH + streptomisin"
+      ],
+      "bookKey": "D",
+      "answer": null,
+      "reason": "Buku memilih regimen kategori II untuk kasus yang pernah diobati. Pendekatan itu sudah ditinggalkan WHO. Pada TB berulang, lakukan pemeriksaan resistansi/kepekaan obat agar regimen dipilih sesuai hasil, riwayat terapi dan pedoman program yang berlaku.",
+      "others": [
+        "Regimen tidak boleh ditentukan hanya dari status pernah berobat dan BTA positif.",
+        "Tidak ada pilihan yang sepenuhnya mewakili langkah evaluasi resistansi sebelum menentukan regimen.",
+        "Menambah streptomisin secara rutin berdasarkan kunci lama bukan pembaruan yang tepat."
+      ],
+      "takeaway": "TB berulang → nilai resistansi; jangan menghafal kategori II sebagai pilihan otomatis.",
+      "refs": [
+        "tb",
+        "tb-id"
+      ],
+      "note": "Kunci D adalah catatan historis dan tidak dijadikan jawaban terapi masa kini. Tidak masuk skor. Dosis/regimen harus mengikuti program nasional dan hasil pemeriksaan.",
+      "status": "usang",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-026",
+      "number": 26,
+      "package": "Paket 1",
+      "topic": "Penyakit Dalam",
+      "title": "Obat penurun LDL",
+      "page": 16,
+      "stem": "Perempuan 55 tahun memiliki kolesterol total 325 mg/dL dan LDL 165 mg/dL. Dari pilihan berikut, obat mana merupakan statin untuk menurunkan LDL dan risiko kardiovaskular?",
+      "options": [
+        "Allopurinol",
+        "Atorvastatin",
+        "Probukol",
+        "Gemfibrozil",
+        "Fenofibrat"
+      ],
+      "bookKey": "B",
+      "answer": "B",
+      "reason": "Atorvastatin menghambat HMG-CoA reduktase dan merupakan statin yang digunakan untuk menurunkan LDL serta risiko kejadian kardiovaskular pada indikasi yang sesuai.",
+      "others": [
+        "Allopurinol digunakan untuk masalah hiperurisemia, bukan penurun LDL utama.",
+        "Gemfibrozil dan fenofibrat merupakan fibrat yang lebih terkait penanganan trigliserida pada konteks tertentu.",
+        "Probukol bukan pilihan rutin utama dalam pedoman reduksi risiko kardiovaskular ini."
+      ],
+      "takeaway": "Kenali kelas obat: atorvastatin → statin → penurunan LDL.",
+      "refs": [
+        "lipid"
+      ],
+      "note": "Nyeri leher/pusing tidak membuktikan hiperkolesterolemia sebagai penyebab. Keputusan terapi dan dosis memerlukan penilaian risiko, komorbid, interaksi dan penyebab sekunder. Pertanyaan difokuskan pada kelas obat.",
+      "status": "konteks",
+      "scored": true,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    },
+    {
+      "id": "p1-027",
+      "number": 27,
+      "package": "Paket 1",
+      "topic": "Parasitologi",
+      "title": "Morfologi parasit perlu diperjelas",
+      "page": 16,
+      "stem": "Laki-laki 34 tahun mengalami diare berdarah-berlendir, nyeri perut dan penurunan berat badan. Buku menggambarkan parasit bergerak cepat dengan redaksi morfologi yang kurang jelas pada scan. Organisme mana yang dimaksud oleh kunci?",
+      "options": [
+        "Entamoeba coli",
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Balantidium coli",
+        "Dientamoeba fragilis"
+      ],
+      "bookKey": "D",
+      "answer": null,
+      "reason": "Kunci buku D mengarah ke Balantidium coli. Ciri pembeda yang seharusnya dicari adalah protozoa besar bersilia dengan makronukleus menyerupai ginjal/kacang. Gejala disentri saja tidak dapat membedakannya dari amebiasis.",
+      "others": [
+        "E. histolytica juga dapat menyebabkan disentri; perlu morfologi yang lebih spesifik.",
+        "Giardia biasanya menyebabkan diare malabsorptif tanpa darah.",
+        "E. coli adalah ameba usus nonpatogen; bedakan namanya dari bakteri Escherichia coli.",
+        "Dientamoeba tidak memiliki silia khas Balantidium."
+      ],
+      "takeaway": "Disentri memberi arah; morfologi parasit menentukan identifikasi.",
+      "refs": [
+        "bal"
+      ],
+      "note": "Deskripsi di buku/scan tidak cukup tegas untuk membuktikan D. Tidak ditambahkan temuan silia seolah-olah tertulis dalam stem; soal tidak masuk skor.",
+      "status": "ambigu",
+      "scored": false,
+      "checked": "2026-10-28",
+      "adaptation": "Ringkasan kasus dari buku; ejaan dirapikan."
+    }
+  ]
+}
